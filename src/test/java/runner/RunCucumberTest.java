@@ -1,6 +1,5 @@
 package runner;
 
-import
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
@@ -12,8 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     plugin = {},
-    features = "/src/test/resources/features",
-    tags = {""},
+    features = "src/test/resources/features",
+    tags = {"@cadastro-sucesso"},
     glue = {"steps"}
 )
 
